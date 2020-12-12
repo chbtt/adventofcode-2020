@@ -79,9 +79,10 @@ def getNextVisibleSeat(
 
 
 def getNumVisibleOccupiedSeats(waitingArea: list, xIndex: int, yIndex: int) -> int:
-    visibleSeats = []
-    for (xMod, yMod) in adjacentIndexMods:
-        visibleSeats.append(getNextVisibleSeat(waitingArea, xIndex, yIndex, xMod, yMod))
+    visibleSeats = [
+        getNextVisibleSeat(waitingArea, xIndex, yIndex, xMod, yMod)
+        for (xMod, yMod) in adjacentIndexMods
+    ]
 
     return visibleSeats.count(OCCUPIED)
 

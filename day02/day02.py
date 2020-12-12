@@ -3,7 +3,7 @@ import sys
 import re
 
 if len(sys.argv) != 2:
-    print("Usage: python <path-to-input-data>")
+    print("Usage: python <path-to-this-file> <path-to-input-data>")
     sys.exit(1)
 
 entries = []
@@ -30,7 +30,8 @@ for currEntry in entries:
     indexOne = int(indexOne) - 1
     indexTwo = int(indexTwo) - 1
 
-    validPasswords += (password[indexOne] == policyChar) \
-                    ^ (password[indexTwo] == policyChar)
+    validPasswords += (password[indexOne] == policyChar) ^ (
+        password[indexTwo] == policyChar
+    )
 
 print("Puzzle 2 valid passwords:", validPasswords)

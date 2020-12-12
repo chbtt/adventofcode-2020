@@ -63,7 +63,7 @@ def checkValidFields(passport: dict) -> bool:
 
 
 if len(sys.argv) != 2:
-    print("Usage: python <path-to-input-data>")
+    print("Usage: python <path-to-this-file> <path-to-input-data>")
     sys.exit(1)
 
 lines = []

@@ -44,7 +44,7 @@ def getBagCount(bags: dict, targetBagType: str) -> int:
 
 
 if len(sys.argv) != 2:
-    print("Usage: python <path-to-input-data>")
+    print("Usage: python <path-to-this-file> <path-to-input-data>")
     sys.exit(1)
 
 bags = dict()

@@ -2,18 +2,23 @@
 import sys
 
 
-def buildMatcher(rules: dict, ruleValue):
+def buildMatchingStrings(rules: dict, ruleValue) -> list:
     if isinstance(ruleValue, str):
-        return ruleValue
+        return [[ruleValue]]
 
     matchOptions = []
     for ruleOption in ruleValue:
-        matchingStrings = []
+        currMatchOptions = [[]]
 
         for ruleIndex in ruleOption:
-            matchingStrings.append(buildMatcher(rules, rules[ruleIndex]))
+            nextLevelMatches = buildMatchingStrings(rules, rules[ruleIndex])
+            currMatchOptions = [
+                base + nextLevel
+                for base in currMatchOptions
+                for nextLevel in nextLevelMatches
+            ]
 
-        matchOptions.append(matchingStrings)
+        matchOptions.extend(currMatchOptions)
 
     return matchOptions
 
@@ -48,3 +53,10 @@ rules = {
     ruleIndex: ruleValue
     for ruleIndex, ruleValue in [parseRule(rule) for rule in sections[0]]
 }
+messages = sections[1]
+
+rule0MatchingStrings = [
+    "".join(matchingString) for matchingString in buildMatchingStrings(rules, rules[0])
+]
+numValidMessages = len(list(filter(lambda msg: msg in rule0MatchingStrings, messages)))
+print("Puzzle 1 valid messages:", numValidMessages)

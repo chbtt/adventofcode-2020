@@ -68,11 +68,3 @@ Here are the other examples from above:
 _What do you get if you add up the results of evaluating the homework problems using these new rules?_
 
 Your puzzle answer was `328920644404583`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/18/input).
-
-You can also this puzzle.

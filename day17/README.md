@@ -403,11 +403,3 @@ After the full six-cycle boot process completes, _`848`_ cubes are left in the _
 Starting with your given initial configuration, simulate six cycles in a 4-dimensional space. _How many cubes are left in the active state after the sixth cycle?_
 
 Your puzzle answer was `1868`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/17/input).
-
-You can also this puzzle.

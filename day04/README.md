@@ -124,11 +124,3 @@ Here are some valid passports:
 Count the number of _valid_ passports - those that have all required fields _and valid values_. Continue to treat `cid` as optional. _In your batch file, how many passports are valid?_
 
 Your puzzle answer was `140`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/4/input).
-
-You can also this puzzle.

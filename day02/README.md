@@ -42,11 +42,3 @@ Given the same example list from above:
 _How many passwords are valid_ according to the new interpretation of the policies?
 
 Your puzzle answer was `352`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/2/input).
-
-You can also this puzzle.

@@ -119,11 +119,3 @@ However, with so many bus IDs in your list, surely the actual earliest timestamp
 _What is the earliest timestamp such that all of the listed bus IDs depart at offsets matching their positions in the list?_
 
 Your puzzle answer was `626670513163231`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/13/input).
-
-You can also this puzzle.

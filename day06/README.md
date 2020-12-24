@@ -86,11 +86,3 @@ In this example, the sum of these counts is `3 + 0 + 1 + 1 + 1` = _`6`_.
 For each group, count the number of questions to which _everyone_ answered "yes". _What is the sum of those counts?_
 
 Your puzzle answer was `3323`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/6/input).
-
-You can also this puzzle.

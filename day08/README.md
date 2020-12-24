@@ -91,11 +91,3 @@ After the last instruction (`acc +6`), the program terminates by attempting to r
 Fix the program so that it terminates normally by changing exactly one `jmp` (to `nop`) or `nop` (to `jmp`). _What is the value of the accumulator after the program terminates?_
 
 Your puzzle answer was `892`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/8/input).
-
-You can also this puzzle.

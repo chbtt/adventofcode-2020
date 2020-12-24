@@ -70,11 +70,3 @@ After these operations, the ship's Manhattan distance from its starting position
 Figure out where the navigation instructions actually lead. _What is the Manhattan distance between that location and the ship's starting position?_
 
 Your puzzle answer was `28591`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2020/day/12/input).
-
-You can also this puzzle.

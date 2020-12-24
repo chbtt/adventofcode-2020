@@ -58,11 +58,3 @@ Impressed, the Elves issue you a challenge: determine the `30000000`th number sp
 Given your starting numbers, _what will be the `30000000`th number spoken?_
 
 Your puzzle answer was `3718541`.
-
-Both parts of this puzzle are complete! They provide two gold stars: \*\*
-
-At this point, you should [return to your Advent calendar](https://adventofcode.com/2020) and try another puzzle.
-
-Your puzzle input was `2,0,6,12,1,3`.
-
-You can also this puzzle.
